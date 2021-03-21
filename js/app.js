@@ -1,6 +1,13 @@
 'use strict';
 
+
+
+
+
+
 // Seattle branch
+
+
 const Seattle={
   name:'Seattle',
   minCustomers: 23,
@@ -8,13 +15,32 @@ const Seattle={
   avgCookie:6.3,
   customeres:0,
   workingHour:['6am','7am','8am','9am','10am','11am','12am','1pm','2pm','3pm','4pm','5pm','6pm','7pm'],
+  salesss:[],
 
   getCustomeres :function(min,max){
     this.customeres=getRandomNumber(min,max);
     console.log(this);
   },
-  salesobjec:0,
 
+  
+
+
+
+
+
+
+  // getsales:function(){
+
+
+  // // for(let m=0;m<this.workingHour.length;m++){
+  // //   let x=getRandomNumber(23,65);
+  // //   let u=Math.ceil(6.3);
+  // //   let add=x*u;
+  // //   let sal=[];
+  // //   sal.push(add);
+
+  // // }return(this.sal);
+  // },
 
 
 
@@ -37,13 +63,31 @@ const Seattle={
       let x=getRandomNumber(23,65);
       let u=Math.ceil(6.3);
       let salesPerHour=x*u;
-
       liEl.textContent = this.workingHour[i]+':'+salesPerHour;
     }
+    for(let s=0; s< this.workingHour.length; s++)
+    {
+  
+      let x=getRandomNumber(23,65);
+      let u=Math.ceil(6.3);
+     let total=[];
+     let  salesPerHour=u*x
+    
+      
+      
+      if (this.workingHour.length-1===s){
+       
+        const liEl = document.createElement('li');
+        ulEl.appendChild(liEl);
+        liEl.textContent =salesPerHour*3 ;
 
-  }
+      }
+    }},
 
-};
+   
+  };
+
+
 Seattle.render();
 
 // TOkyo branch
@@ -86,9 +130,28 @@ const Tokyo={
       let salesPerHour=x*u;
 
       liEl.textContent = this.workingHour[i]+':'+salesPerHour;
-    }
+      
 
-  }
+    }
+    for(let s=0; s< this.workingHour.length; s++)
+    {
+  
+      let x=getRandomNumber(3,24);
+      let u=Math.ceil(1.2);
+     let total=[];
+     let  salesPerHour=u*x
+    
+      
+      
+      if (this.workingHour.length-1===s){
+       
+        const liEl = document.createElement('li');
+        ulEl.appendChild(liEl);
+        liEl.textContent =salesPerHour*7 ;
+
+      }
+    }},
+
 
 };
 Tokyo.render();
@@ -135,7 +198,24 @@ const Dubai={
       liEl.textContent = this.workingHour[i]+':'+salesPerHour;
     }
 
-  }
+    for(let s=0; s< this.workingHour.length; s++)
+    {
+  
+      let x=getRandomNumber(11,38);
+      let u=Math.ceil(3.7);
+     let total=[];
+     let  salesPerHour=u*x
+    
+      
+      
+      if (this.workingHour.length-1===s){
+       
+        const liEl = document.createElement('li');
+        ulEl.appendChild(liEl);
+        liEl.textContent =salesPerHour*20 ;
+
+      }
+  }}
 
 };
 Dubai.render();
@@ -179,8 +259,24 @@ const Paris={
 
       liEl.textContent = this.workingHour[i]+':'+salesPerHour;
     }
+    for(let s=0; s< this.workingHour.length; s++)
+    {
+  
+      let x=getRandomNumber(20,38);
+      let u=Math.ceil(2.3);
+     let total=[];
+     let  salesPerHour=u*x
+    
+      
+      
+      if (this.workingHour.length-1===s){
+       
+        const liEl = document.createElement('li');
+        ulEl.appendChild(liEl);
+        liEl.textContent =salesPerHour*7 ;
 
-  }
+      }
+  }}
 
 };
 Paris.render();
@@ -224,7 +320,23 @@ const Lima={
 
       liEl.textContent = this.workingHour[i]+':'+salesPerHour;
     }
+    for(let s=0; s< this.workingHour.length; s++)
+    {
+  
+      let x=getRandomNumber(2,16);
+      let u=Math.ceil(4.6);
+     let total=[];
+     let  salesPerHour=u*x
+    
+      
+      
+      if (this.workingHour.length-1===s){
+       
+        const liEl = document.createElement('li');
+        ulEl.appendChild(liEl);
+        liEl.textContent =salesPerHour*3 ;
 
+      }}
   }
 
 };
