@@ -8,13 +8,26 @@ const Seattle={
   avgCookie:6.3,
   customeres:0,
   workingHour:['6am','7am','8am','9am','10am','11am','12am','1pm','2pm','3pm','4pm','5pm','6pm','7pm'],
+  salesss:[],
 
   getCustomeres :function(min,max){
     this.customeres=getRandomNumber(min,max);
     console.log(this);
   },
-  salesobjec:0,
 
+
+// getsales:function(){
+  
+ 
+// // for(let m=0;m<this.workingHour.length;m++){
+// //   let x=getRandomNumber(23,65);
+// //   let u=Math.ceil(6.3);
+// //   let add=x*u;
+// //   let sal=[];
+// //   sal.push(add);
+
+// // }return(this.sal);
+// },
 
 
 
