@@ -6,3 +6,9 @@ h1{
 body{
   background-color: cyan;
 }
+table{
+  width:100%
+}
+table, th, td {
+  background-color:lime;
+  border: 1px solid black;}
