@@ -78,9 +78,9 @@ const tokyo={
 
   name: 'Tokyo',
  
-  avgCookie:3,
-  minCust:24,
-  maxCust:1.2,
+  avgCookie:1.2,
+  minCust:3,
+  maxCust:24,
   total:0,
   arraytotal:[],
 
@@ -143,9 +143,9 @@ const dubai={
 
   name: 'Dubai',
  
-  avgCookie:11,
-  minCust:38,
-  maxCust:3.7,
+  avgCookie:3.7,
+  minCust:11,
+  maxCust:38,
   total:0,
   arraytotal:[],
 
@@ -207,9 +207,9 @@ const paris={
 
   name: 'Paris',
  
-  avgCookie:20,
-  minCust:38,
-  maxCust:2.3,
+  avgCookie:2.3,
+  minCust:20,
+  maxCust:38,
   total:0,
   arraytotal:[],
 
@@ -270,9 +270,9 @@ const lima={
 
   name: 'Lima',
  
-  avgCookie:2,
-  minCust:16,
-  maxCust:4.6,
+  avgCookie:4.6,
+  minCust:2,
+  maxCust:16,
   total:0,
   arraytotal:[],
 
