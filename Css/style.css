@@ -29,3 +29,8 @@ th {
 body {
   background-color: lightcoral;
 }
+header{
+  font-size: xx-large;
+  background-color: cyan;
+  color:purple;
+}
