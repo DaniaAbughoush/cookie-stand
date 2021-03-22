@@ -34,9 +34,6 @@ thE3.textContent='Daily Location Total';
 
 
 
-
-// constract afunction called Location:
-
 function Location(name,avgCookie,minCust,maxCust)
 {
   this.name=name;
@@ -71,6 +68,7 @@ Location.prototype.getSales= function (){
 
 Location.prototype.render=function(){
  
+
  
  
   const trEl=document.createElement('tr');
@@ -86,6 +84,7 @@ Location.prototype.render=function(){
  trEl.appendChild(tdE2);
    
     tdE2.textContent = this.arraytotal[i];
+
   }
   const tdE3 =document.createElement('td');
   trEl.appendChild(tdE3);
@@ -107,6 +106,7 @@ tokyo.getSales();
 tokyo.render();
 dubai.getSales();
 dubai.render();
+
 paris.getSales();
 paris.render();
 lima.getSales();
@@ -124,10 +124,9 @@ for (let i=0;i<workingHour.length;i++){
 thE4.textContent=z;
 }
 
+
 let patTotal=saettle.total+tokyo.total+dubai.total+paris.total+lima.total;
 console.log(patTotal);
 const thE6=document.createElement('th');
 trE2.appendChild(thE6);
 thE6.textContent=patTotal;
-
-
