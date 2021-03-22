@@ -1,14 +1,31 @@
-h1{
-    background-color: blue;
-    color:cornsilk
+
+table{
+
+float:inline-start;  
+
 }
 
-body{
-  background-color: cyan;
+h1{
+  font-size:xx-large;
+  color: blueviolet;
+  background-color: cornsilk;
+  
+  text-align: centrt;
+  display: block;
 }
-table{
-  width:100%
+td, th {
+  width: 4rem;
+  height: 2rem;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: coral;
+  font-size: medium;
+  border-radius: 10px;
 }
-table, th, td {
-  background-color:lime;
-  border: 1px solid black;}
+th {
+  background: purple;
+  border-color:palevioletred;
+}
+body {
+  background-color: lightcoral;
+}

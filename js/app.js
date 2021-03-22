@@ -11,6 +11,9 @@ function getRandomNumber(min, max) {
 const container = document.getElementById('salesData');
 const articalE1 = document.createElement('articalE1');
 container.appendChild(articalE1);
+const h1El=document.createElement('h1');
+articalE1.appendChild(h1El);
+h1El.textContent=' Pat Salmoon';
 const tableEl=document.createElement('table');
 articalE1.appendChild(tableEl);
 const trE0=document.createElement('tr');
