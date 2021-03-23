@@ -23,8 +23,9 @@ td, th {
   border-radius: 10px;
 }
 th {
-  background: purple;
+  background:rgb(1, 94, 50);
   border-color:palevioletred;
+  border:solid,palevioletred;
 }
 body {
   background-color: lightcoral;

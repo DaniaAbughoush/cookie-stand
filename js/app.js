@@ -47,7 +47,7 @@ function Location(name,avgCookie,minCust,maxCust)
   this.minCust=minCust;
   this.maxCust=maxCust;
     this.total=0;
-  this.arraytotal=[];
+  this.arraytotal=[]
 }
 
 Location.prototype.getSales= function (){
