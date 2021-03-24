@@ -33,7 +33,7 @@ thE3.textContent='Daily Location Total';
 
 
 
-
+let subLocation=[];
 function Location(name,avgCookie,minCust,maxCust)
 {
   this.name=name;
@@ -42,6 +42,7 @@ function Location(name,avgCookie,minCust,maxCust)
   this.maxCust=maxCust;
     this.total=0;
   this.arraytotal=[];
+  subLocation.push(this);
 }
 
 Location.prototype.getSales= function (){
