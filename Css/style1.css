@@ -1,0 +1,27 @@
+body{
+    position: relative;
+    background-color: salmon;
+}
+
+button{
+    border:solid,pink,10px;
+    border-radius: 10px;
+    background-color: purple;
+}
+h1{
+    text-align: center;
+    font-size: xxx-large;
+    font-family: 'Pangolin', cursive;
+    font-weight: bolder;
+    color:purple;
+}
+ 
+ul{
+    margin-left:100px;
+    font-size: medium;
+    font-family: 'Pangolin', cursive;
+    font-weight: bold;
+    color:purple;
+}
+
+

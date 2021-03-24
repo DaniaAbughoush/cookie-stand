@@ -1,14 +1,42 @@
-h1{
-    background-color: blue;
-    color:cornsilk
-}
-
-body{
-  background-color: cyan;
-}
 table{
-  width:100%
+
+  float:inline-start;  
+  
+  }
+  
+  h1{
+    font-size:xx-large;
+    color: blueviolet;
+    background-color: cornsilk;
+    
+    text-align: centrt;
+    display: block;
+  }
+  td, th {
+    width: 4rem;
+    height: 2rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: coral;
+    font-size: medium;
+    border-radius: 10px;
+  }
+  th {
+    background:rgb(1, 94, 50);
+    border-color:palevioletred;
+    border:solid,palevioletred;
+  }
+  body {
+    background-color:purple;
+  }
+  header{
+    font-size: xx-large;
+    background-color: cyan;
+    color:purple;
+  }
+  button{
+    border:solid,pink,10px;
+    border-radius: 10px;
+    background-color:palevioletred;
+    padding: 14px 100px;
 }
-table, th, td {
-  background-color:lime;
-  border: 1px solid black;}
