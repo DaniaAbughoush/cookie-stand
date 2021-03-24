@@ -40,3 +40,7 @@ table{
     background-color:palevioletred;
     padding: 14px 100px;
 }
+form{
+  color:black;
+  background-color: yellow;
+}
