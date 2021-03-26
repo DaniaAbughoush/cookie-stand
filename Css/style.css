@@ -1,5 +1,6 @@
 
 
+
 table{
 
 float:inline-start;  
@@ -35,6 +36,8 @@ header{
   font-size: xx-large;
   background-color: cyan;
   color:purple;}
+=======
+
 table{
 
   float:inline-start;  
@@ -45,7 +48,10 @@ table{
     font-size:xx-large;
     color: blueviolet;
     background-color: cornsilk;
+
     margin-left:500px;
+=======
+
     
     text-align: centrt;
     display: block;
@@ -77,6 +83,7 @@ table{
     border-radius: 10px;
     background-color:palevioletred;
     padding: 14px 100px;
+
     margin-bottom: 900px;
     margin-left: 600px;
 }
@@ -88,6 +95,5 @@ form{
   border-radius: 20px;
   margin: 20px;
   text-align: center;
-}
 }
 

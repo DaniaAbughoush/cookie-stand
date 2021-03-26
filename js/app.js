@@ -14,6 +14,7 @@ const articalE1 = document.createElement('articalE1');
 container.appendChild(articalE1);
 const tableEl=document.createElement('table');
 articalE1.appendChild(tableEl);
+
 tableEl.setAttribute('id','table1');
 
 ////header
@@ -33,6 +34,7 @@ function Header(){
   trE0.appendChild(thE3);
   thE3.textContent='Daily Location Total';}
 
+//add daily total for each location title
 
 //add daily total for each location title
 
@@ -53,7 +55,7 @@ function Location(name,avgCookie,minCust,maxCust)
   subLocation.push(this);
 }
 
-Location.prototype.getSales= function (){
+Location.prototype.getSales= function (min,max){
 
 
 
@@ -94,6 +96,7 @@ Location.prototype.render=function(){
 };
 
 
+
 // function newrender(){
 //   for (let i = 0; i < subLocation.length; i++) {
 //     subLocation[i].getSales();
@@ -105,6 +108,30 @@ const tokyo=new Location('Tokyo',1.2,3,24);
 const dubai=new Location('Dubai',3.7,11,38);
 const paris=new Location('Paris',2.3,20,38);
 const lima=new Location('Lima',4.6,2,16);
+
+
+
+// Location.prototype.newrender= function() { 
+
+//   const trE5=document.createElement('tr');
+//   tableEl.appendChild(trE5);
+//   for(let i=0; i< workingHour.length; i++)
+//   {
+
+//     const tdE7=document.createElement('td');
+//     trE5.appendChild(tdE6);
+
+//     tdE7.textContent = this.arraytotal[i];
+
+//   }
+//   const tdE8 =document.createElement('td');
+//   trE5.appendChild(tdE8);
+//   tdE8.textContent=this.total;
+
+// };
+
+
+
 
 
 // Location.prototype.newrender= function() {
@@ -219,7 +246,23 @@ function addNewLocation(event){
   tablefooter();
 
 
+
 }
+
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
